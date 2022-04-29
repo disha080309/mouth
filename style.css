@@ -1,0 +1,32 @@
+h3{
+    font-size: 25px !important;
+}
+#snapshot:hover{
+    background-color: red;
+}
+canvas{
+    animation-name: example_animation;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes example_animation{
+    from{
+        box-shadow: 1px 1px 35px rgb(255, 0, 119);
+    }
+    to{
+        box-shadow: 1px 1px 35px rgb(188, 132, 180);
+    }
+}
+center{
+    animation-name: change;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes change{
+    from{
+        box-decoration-break: 1px 1px 35px rgb(255, 0, 119);
+    }
+    to{
+        box-decoration-break: 1px 1px 35px rgb(188, 132, 180);
+    }
+}
